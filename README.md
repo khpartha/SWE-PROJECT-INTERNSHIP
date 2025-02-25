@@ -92,16 +92,16 @@ Generates plots using Matplotlib to visualize both historical production data an
 
 ## Usage
 - **Generate or Load Data**
+ 
 - **Run Forecasting**
-- ```python
-python forecast_linear.py
-```
 
-  
+- **View Result Example**
+- <img width="618" alt="image" src="https://github.com/user-attachments/assets/16a92e45-2ebe-44eb-870e-876b562ac7ce" />
 
-You will be prompted to enter the cup's diameter and height (both in inches). The program will then output the estimated amount of PET required in grams.
 
-**Example Interaction**
+
+
+**Workflow Description**
  ```python
 Enter the diameter of the cup (in inches): 6
 Enter the height of the cup (in inches): 6
