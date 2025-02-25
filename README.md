@@ -25,10 +25,7 @@ The result is a holistic solution to forecast production demand and calculate ma
 
 ## Features
 
-- **User Input:** Dynamically accepts the cup's diameter and height.
-- **Accurate Calculations:** Estimates the volume of the cup's walls, bottom, and handle.
-- **Material Estimation:** Converts the calculated volume to weight (grams) using the density of PET.
-- **Extensible Code:** Clean and well-documented code that can be easily modified or extended.
+ 
 
 
 - **Production Forecasting**
@@ -48,23 +45,59 @@ Written in Python, a widely used language for AI, data science, and scripting.
 Flexible structure that can be adapted to real-world or synthetic data.
 
 - **Visualization**
-
 Generates plots using Matplotlib to visualize both historical production data and model predictions
 
-## Installation
+
+## Tech Stack
+
+- Python 3.10+
+- pandas for data manipulation
+- NumPy for numerical operations
+- scikit-learn or TensorFlow for machine learning
+- Matplotlib for data visualization
+
+
+
+
+## Get started
 
  **Clone the repository:**
 
    ```bash
    git clone https://github.com/khpartha/PETcal.git
  
-``` 
-## Usage
-Run the Python script from the command line:
-
- ```bash
-  python pet_cup_calculator.py
 ```
+
+
+## project Structure
+ 
+   ```bash
+  ai-pet-production-forecast/
+│
+├── README.md                  <- This readme
+├── requirements.txt           <- Project dependencies
+├── forecast_linear.py         <- Example scikit-learn linear regression script
+├── forecast_nn.py             <- Example TensorFlow neural network script
+├── pet_calculator.py          <- Script/module for PET consumption calculation
+├── combined_app.py            <- End-to-end script combining forecasting & PET calculation
+├── production_data.csv        <- Example data file (if you have real data)
+└── ...
+ 
+```
+**key Files**
+- forecast_linear.py: Demonstrates a simple Linear Regression approach (scikit-learn).
+- forecast_nn.py: Demonstrates a basic neural network approach (TensorFlow).
+- pet_calculator.py: Contains geometry and material conversion logic for calculating PET in grams.
+- combined_app.py: Integrates forecasting + PET consumption + cost estimation into one pipeline.
+
+## Usage
+- **Generate or Load Data**
+- **Run Forecasting**
+- ```python
+python forecast_linear.py
+```
+
+  
 
 You will be prompted to enter the cup's diameter and height (both in inches). The program will then output the estimated amount of PET required in grams.
 
