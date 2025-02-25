@@ -11,8 +11,8 @@ Welcome to the AI-Driven PET Production Forecaster and Calculator repository! Th
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Workflow Description](#workflow-description)
-- [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
+- [Contact](#contact)
  
 
 ## Overview
@@ -101,20 +101,20 @@ Generates plots using Matplotlib to visualize both historical production data an
 
 
 
-**Workflow Description**
- ```python
-Enter the diameter of the cup (in inches): 6
-Enter the height of the cup (in inches): 6
-The estimated amount of PET required: 72 grams
-```
-## How It Works
-- **1. User Input:** The script prompts the user for the cup's diameter and height. 
-- **2. User Input:** The cup is modeled as a hollow cylinder for the body.
-   
-- **3. Weight Estimation:** The total volume is calculated and then converted to weight using the density of PET (approx. 0.050 lb/in³).
-Finally, the weight is converted from pounds to grams.
+## Workflow Description
+
+- **Data Ingestion**Historical production data is read from a CSV or generated synthetically.
+- **Feature Engineering & Model Training**Input features (months) are fed into a scikit-learn or TensorFlow model.
+Model learns the relationship between month and production.
+- **Prediction**Model predicts production for the next month (or multiple months ahead).
+
+## Contributing
+- Improving documentation,
+- Adding new forecasting methods,
   
-The clear modular structure of the code allows for easy maintenance and future expansion of features.
+please fork this repository and create a pull request with a clear description of your changes.
+
+ 
 
 ## Contact 
 For any questions, suggestions, or contributions, please feel free to contact me at 4khundrakpampartha@gmail.com.
