@@ -1,5 +1,5 @@
 ## 📜 Certificate
-![Certificate](./certificate.png)
+![Certificate](./certificate.pdf)
  
 
 # AI-Driven PET Production Forecaster and Calculator
