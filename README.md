@@ -1,6 +1,5 @@
 # certicate:
-## 🧠 AI Sales Analyser Preview
-![AI Sales Analyser](./Certificate and Offer of intern.pdf)
+ 
 
 # AI-Driven PET Production Forecaster and Calculator
 
