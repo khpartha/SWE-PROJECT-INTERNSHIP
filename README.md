@@ -1,3 +1,7 @@
+# certicate:
+## 🧠 AI Sales Analyser Preview
+![AI Sales Analyser](./ai-sales-analyser.png)
+
 # AI-Driven PET Production Forecaster and Calculator
 
 Welcome to the AI-Driven PET Production Forecaster and Calculator repository! This project aims to help manufacturers in the plastic industry optimize their plastic (PET) usage and predict future production demands. By leveraging Machine Learning (ML) for forecasting and a PET consumption calculator, users can estimate monthly production requirements, the total PET needed (in grams), and the associated cost (based on a per-gram rate).
