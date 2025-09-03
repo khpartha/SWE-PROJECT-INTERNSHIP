@@ -1,4 +1,5 @@
-# certicate:
+## 📜 Certificate
+![Certificate](./certificate.png)
  
 
 # AI-Driven PET Production Forecaster and Calculator
